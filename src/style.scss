@@ -1,0 +1,63 @@
+.table-data{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 25%;
+  text-align: left;
+  margin-top: 17%;
+  margin-left: 60%;
+
+}
+.tr{
+  padding:10px;
+
+}
+
+.td,th{
+  border: 2px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+  background-color:  #1ac6ff;
+  color:white;
+  border-color: bisque;
+  border-collapse: collapse;
+}
+
+
+tr:nth-child(even) {
+  background-color: #ccf2ff;
+}
+
+.btn-search{
+    outline: 0;
+    background: #4CAF50;
+    border: 0;
+    padding: 2.5px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+// .term {
+//   display: flexbox;
+//   width: px;
+//   height: px;
+//   padding: px;
+//   margin-left: 10px;
+  
+//  }
+
+.city-name{ 
+  display: inline;
+  margin-left: 10px;
+} 
+.city-id{ 
+  display: inline-block;  
+  margin-left: 9%;
+ 
+} 
+.city-range{
+  display: inline-block; 
+  //float: right;
+  margin-left: 29%;
+} 
